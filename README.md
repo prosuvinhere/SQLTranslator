@@ -1,5 +1,5 @@
 
-# SQLSpeak
+# SQLTranslator
 
 SQLSpeak is a sophisticated system designed to convert human language queries into SQL statements, enabling users to retrieve data from a database effortlessly. This project leverages advanced natural language processing and machine learning techniques to bridge the gap between human language and structured database queries.
 
@@ -17,35 +17,40 @@ SQLSpeak is a sophisticated system designed to convert human language queries in
 
 **Language Model:**
 
-- **Google Palm:** Handles natural language processing and     understanding.
+- **Google Palm:** Handles natural language processing and understanding.
+  
 **Database Utility:**
 
 - **SQLDatabase (LangChain):** Facilitates interaction with the SQL database.
+  
 **Chain for SQL Queries:**
 
 - **SQLDatabaseChain (LangChain):** Manages the conversion process from natural language to SQL queries.
 
 **Example Selector:**
 
-**SemanticSimilarityExampleSelector (LangChain):** Enhances query understanding by selecting relevant examples based on semantic similarity.
+- **SemanticSimilarityExampleSelector (LangChain):** Enhances query understanding by selecting relevant examples based on semantic similarity.
 
 **Embeddings:**
 
-**HuggingFaceEmbeddings:** Provides high-quality embeddings for natural language understanding.
+- **HuggingFaceEmbeddings:** Provides high-quality embeddings for natural language understanding.
 
 **Vector Store:**
 
-**Chroma:** Stores and retrieves vector representations of text for efficient query processing.
+- **Chroma:** Stores and retrieves vector representations of text for efficient query processing.
 
 **Prompt Templates:**
 
 - **FewShotPromptTemplate (LangChain):** Utilized for few-shot learning in prompt engineering.
+  
 - **PromptTemplate (LangChain):** Custom templates for prompt creation.
 
 **Custom Prompts:**
 
 - **PROMPT_SUFFIX:** Tailored suffix for prompts.
+  
 - **_mysql_prompt:** Specific prompt designed for MySQL database interactions.
+  
 ## How It Works ##
 
 **User Input:** The user inputs a query in natural language.
@@ -58,6 +63,25 @@ SQLSpeak is a sophisticated system designed to convert human language queries in
 
 **Response:** The retrieved data is presented to the user in a readable format.
 
+## Home Page ##
+
+<img width="854" alt="Screenshot 2024-08-06 at 11 39 02 PM" src="https://github.com/user-attachments/assets/135a7091-0426-4e64-89ec-0c7bcca296a3">
+
+### SQL DataBase ###
+
+<img width="562" alt="Screenshot 2024-08-06 at 11 41 29 PM" src="https://github.com/user-attachments/assets/d9e5db06-9fac-4860-9f3c-694cb7ca03f0">
+
+### Input Query ###
+
+<img width="916" alt="Screenshot 2024-08-06 at 11 39 21 PM" src="https://github.com/user-attachments/assets/24b616a6-672f-494b-bee0-9d31bb7d3ea9">
+
+### Generating SQL Query ###
+
+<img width="805" alt="Screenshot 2024-08-06 at 11 37 58 PM" src="https://github.com/user-attachments/assets/40e29024-f2c8-4b01-8dd6-94936e6780ab">
+
+### Final Output
+
+<img width="872" alt="Screenshot 2024-08-06 at 11 40 35 PM" src="https://github.com/user-attachments/assets/e30929da-4bd0-4b3a-927f-e046cc1cf851">
 
 # Hi, I'm Suvin! 👋
 Former Toshiba Mitsubishi-Electric Industrial Systems Corporation Intern | B.Tech in Computer Science (VIT Vellore) | Skills: LLM, DSA, MERN, AWS
